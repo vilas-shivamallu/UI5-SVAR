@@ -1,0 +1,22 @@
+<mvc:View
+		controllerName="sap.ui.demo.walkthrough.controller.HomePage"
+		xmlns="sap.m"
+		xmlns:mvc="sap.ui.core.mvc"
+		displayBlock="true">
+    <App backgroundImage="./images/homepagebg1.jpg" backgroundOpacity="1">
+        <Page title="{i18n>homePageTitle}" backgroundDesign="Transparent">
+            <headerContent>
+                <Button 
+                text=""
+                icon="sap-icon://navigation-right-arrow"
+                press=".navToOverview"/>
+            </headerContent>
+            <VBox alignItems="Center">
+                <Title titleStyle="H1" fontSize="100" text="{i18n>header}" />
+            </VBox>
+            <VBox alignItems="Center">
+                <Title titleStyle="H1" fontSize="100" text="{i18n>quote}" />
+            </VBox>
+	</Page>
+    </App>
+</mvc:View>

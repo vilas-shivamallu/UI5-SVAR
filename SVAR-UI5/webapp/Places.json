@@ -1,0 +1,134 @@
+{
+  "Places": [
+	{
+	  "name": "Taj Mahal",
+	  "city": "Agra",
+	  "state": "Uttar Pradesh",
+	  "country": "India",
+	  "avgCostOfLiving": 5000,
+	  "description": "The Taj Mahal , originally the Rauza-i-munawwara is an ivory-white marble mausoleum on the southern bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan (reigned from 1628 to 1658) to house the tomb of his favourite wife, Mumtaz Mahal; it also houses the tomb of Shah Jahan himself. ",
+	  "clicks": "100",
+	  "popularity": "A",
+	  "imageSrc": "./images/TajMahal.jpg"
+	},
+	{
+		"name": "Gol konda",
+		"city": "Hyderabad",
+		"state": "Telangana",
+		"country": "India",
+		"avgCostOfLiving": 1000,
+		"description": "Golconda Fort, also known as Golkonda, is a fortified citadel and an early capital city of the Qutb Shahi dynasty (c. 1512–1687), located in Hyderabad, Telangana, India. Because of the vicinity of diamond mines, especially Kollur Mine, Golconda flourished as a trade centre of large diamonds, known as the Golconda Diamonds. The region has produced some of the world's most famous diamonds, including the colourless Koh-i-Noor",
+		"clicks": "10",
+		"popularity": "B",
+		"imageSrc": "./images/Golkonda.jpg"
+	},
+	{
+		"name": "Jonha Fall",
+		"city": "Ranchi",
+		"state": "Jharkhand",
+		"country": "India",
+		"avgCostOfLiving": 1000,
+		"description": "The Jonha Falls (also called Gautamdhara Falls) is a waterfall located in Ranchi district in the Indian state of Jharkhand. Situated at an edge of the Ranchi plateau, the Jonha Falls is an example of a hanging valley falls. The Gunga River hangs over its master stream, Raru River and forms the falls. One has to descend 722 steps to admire the surroundings.",
+		"clicks": "1",
+		"popularity": "C",
+		"imageSrc": "./images/JonhaFalls.png"
+	},
+	{
+		"name": "India Gate",
+		"city": "New Delhi",
+		"state": "Delhi",
+		"country": "India",
+		"avgCostOfLiving": 10000,
+		"description": "The India Gate (formerly known as the All India War Memorial) is a war memorial located astride the Rajpath, on the eastern edge of the ceremonail axis of New Delhi, formerly called Kingsway. It stands as a memorial to 70,000 soldiers of the British Indian Army who died in between 1914 and 1921 in the First World War, in France, Flanders, Mesopotamia, Persia, East Africa, Gallipoli and elsewhere in the Near and the Far East, and the third Anglo-Afghan War. 13,300 servicemen's names, including some soldiers and officers from the United Kingdom, are inscribed on the gate.",
+		"clicks": "100",
+		"popularity": "A",
+		"imageSrc": "./images/India-Gate.jpg"
+	},
+	{
+		"name": "Konark Temple",
+		"city": "Puri", 
+		"state": "Orissa",
+		"country": "India",
+		"avgCostOfLiving": 2000,
+		"description": "Konark Sun Temple (Konark Surya Mandir) is a 13th-century CE (year 1250) Sun temple at Konark about 35 kilometres (22 mi) northeast from Puri on the coastline of Odisha, India. The temple is attributed to king Narasimhadeva I of the Eastern Ganga Dynasty about 1250 CE.Dedicated to the Hindu Sun God Surya, what remains of the temple complex has the appearance of a 100-foot (30 m) high chariot with immense wheels and horses, all carved from stone. Once over 200 feet (61 m) high, much of the temple is now in ruins, in particular the large shikara tower over the sanctuary; at one time this rose much higher than the mandapa that remains.",
+		"clicks": "20",
+		"popularity": "B",
+		"imageSrc": "./images/KonarkTemple.jpg"
+		},
+		{
+		"name": "Ramoji Film City",
+		"city": "Hyderabad",
+		"state": "Telangana",
+		"country": "India",
+		"avgCostOfLiving": 2500,
+		"description": "Ramoji Film City is an integrated film studio complex located in Hyderabad, India. Spread over 1,666 acres, it is the largest integrated film city in the world and as such has been certified by the Guinness World Records as the largest studio complex in the world. It was built by Telugu film producer Ramoji Rao in 1996. The Guardian described Ramoji Film City as 'city within a city'. It is also a popular tourism and recreation centre, containing natural and artificial attractions including an amusement park. Around 1.5 million tourists visit the place every year.",
+		"clicks": "55",
+		"popularity": "B",
+		"imageSrc": "./images/Ramoji.jpg"
+			},
+			{
+		"name": "Kedarnath Temple",
+		"city": "Kedarnath",
+		"state": "Uttarakhand",
+		"country": "India",
+		"avgCostOfLiving": 3000,
+		"description": "Kedarnath Temple is a Hindu temple (shrine) dedicated to Shiva. Located on the Garhwal Himalayan range near the Mandakini river, Kedarnath is located in the state of Uttarakhand, India. Due to extreme weather conditions, the temple is open to the general public only between the months of April (Akshaya Tritiya) and November (Kartik Purnima, the autumn full moon). During the winters, the vigraha (deity) from Kedarnath temple is carried down to Ukhimath and where the deity is worshiped for the next six months. Kedarnath is seen as a homogenous form of Shiva, the 'Lord of Kedarkhand', the historical name of the region",
+		"clicks": "70",
+		"popularity": "A",
+		"imageSrc": "./images/KedarnathTemple.jpg"
+	 },
+	 {
+		"name": "Bangalore Palace",
+		"city": "Bangalore",
+		"state": "Karnataka",
+		"country": "India",
+		"avgCostOfLiving": 10000,
+		"description": "Bangalore Palace is a royal palace located in Bengaluru, Karnataka, India, in an area that was owned by Rev. J. Garrett, the first principal of the Central High School in Bangalore, now famous as Central College. The commencement of the construction of the palace is attributed to him.",
+		"clicks": "70",
+		"popularity": "A",
+		"imageSrc": "./images/Bangalore-Palace.jpg"
+	},
+	{
+		"name": "Marina Beach",
+		"city": "Chennai",
+		"state": "Tamilnadu",
+		"country": "India",
+		"avgCostOfLiving": 2000,
+		"description": "Marina Beach is a natural urban beach in Chennai, Tamil Nadu, India, along the Bay of Bengal. The beach runs from near Fort St. George in the north to Foreshore Estate in the south, a distance of 6.0 km (3.7 mi), making it the longest natural urban beach in the country. The Marina is primarily sandy, unlike the short, rocky formations that make up the Juhu Beach in Mumbai",
+		"clicks": "60",
+		"popularity": "A",
+		"imageSrc": "./images/Marina-Beach.jpg"
+	},
+	{
+		"name": "Dhanush Koti",
+		"city": "Rameshwaram",
+		"state": "Tamil Nadu",
+		"country": "India",
+		"avgCostOfLiving": 1400,
+		"description": "Dhanushkodi is an abandoned town at the south-eastern tip of Pamban Island of the state of Tamil Nadu in India. It is south-east of Pamban and is about 24 kilometres west of Talaimannar in Sri Lanka. The town was destroyed during the 1964 Rameswaram cyclone and remains uninhabited in the aftermath",
+		"clicks": "80",
+		"popularity": "A",
+		"imageSrc": "./images/Dhanushkodi.jpg"
+	  },{
+		"name": "Kovallam Beach",
+		"city": "Thiruvananthpuram",
+		"state": "Kerela",
+		"country": "India",
+		"avgCostOfLiving": 2000,
+		"description": "Kovalam is a small coastal town in the southern Indian state of Kerala, south of Thiruvananthapuram. At the southern end of Lighthouse Beach is a striped lighthouse with a viewing platform. Palm-backed beaches also include Hawa Beach and Samudra Beach. Heading south, Vizhinjam Juma Masjid mosque overlooks the busy fishing harbor. ",
+		"clicks": "80",
+		"popularity": "A",
+		"imageSrc": "./images/KovallamBeach.jpg"
+	  },{
+		"name": "Vasco Da Gama",
+		"city": "Vasco",
+		"state": "Goa",
+		"country": "India",
+		"avgCostOfLiving": 3000,
+		"description": "Vasco da Gama is a city on the Mormugao peninsula in Goa, western India. The coast is dotted with beaches like Baina Beach, and has a natural harbor. On the headland, overlooking Varca Beach, 17th-century Mormugao Fort has 2 fountains. Dating from the 16th century, St. Andrew’s Church has gilded altars.",
+		"clicks": "77",
+		"popularity": "A",
+		"imageSrc": "./images/Vasco-Da-Gama.jpg"
+	  }
+  ]
+}

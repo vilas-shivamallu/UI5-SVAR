@@ -1,0 +1,36 @@
+<mvc:View controllerName="sap.ui.demo.walkthrough.controller.PlaceCard"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:grid="sap.ui.layout.cssgrid"
+	xmlns:f="sap.f">
+	 <f:GridList
+			id="gridList"
+			headerText="{i18n>gridHeader}"
+			items="{
+					path : 'place>/Places'
+			}">
+		<f:customLayout>
+			<grid:GridBoxLayout boxMinWidth="400px"/>
+		</f:customLayout>
+		<f:GridListItem>
+			<VBox class="sapUiSmallMargin">
+				<Title text="{place>name}"/>
+				<HBox>
+					<Label text="{place>city} -"/>
+					<Label text="- {place>state}"/>
+				</HBox>
+				<Image src="{place>imageSrc}" width="100%" height="300px" press=".onPress"/>
+				<OverflowToolbar design="Solid">
+					<Button icon="sap-icon://show" text="{place>clicks}" enabled= "false" class="sapUiTinyMarginEnd"/>
+					<Button id="popularity" icon="sap-icon://" press=".showClicks" text="{
+											path: 'place>popularity',
+											formatter: '.formatter.statusText'}" class="sapUiSmallMarginEnd"
+											type="{= ${place>popularity} === 'A' ? 'Accept' : ${place>popularity} === 'B' ? 'Attention' :'Default' }"/>
+					<ToolbarSpacer/>
+					<Button icon="sap-icon://thumb-up" press=".likeClicked"/>
+				</OverflowToolbar>
+			</VBox>
+		</f:GridListItem>
+	</f:GridList>
+</mvc:View>

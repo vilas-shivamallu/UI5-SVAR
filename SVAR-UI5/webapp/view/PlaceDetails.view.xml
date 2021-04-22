@@ -1,0 +1,39 @@
+<View controllerName="sap.ui.demo.walkthrough.controller.PlaceDetails" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
+	<Shell>
+		<App>
+			<pages>
+				<Page id="place" showNavButton="true" navButtonPress=".onNavBack">
+					<content>
+						<Panel headerText="{place>name}" class="sapUiResponsiveMargin" width="auto">
+							<Panel>
+								<Image src="{place>imageSrc}" width="100%" height="500px" />
+							</Panel>
+							<content>
+								<HBox>
+									<Label text="City : " class="sapUiSmallMarginEnd" labelFor="city" design="Bold" />
+									<Text id="city" text="{place>city}" />
+								</HBox>
+								<HBox>
+									<Label text="State : " class="sapUiSmallMarginEnd" labelFor="state" design="Bold" />
+									<Text id="state" text="{place>state}" />
+								</HBox>
+								<HBox>
+									<Label text="Country : " class="sapUiSmallMarginEnd" labelFor="country" design="Bold" />
+									<Text id="country" text="{place>country}" />
+								</HBox>
+								<HBox>
+									<Label text="Average Cost of Living : " class="sapUiSmallMarginEnd" labelFor="avgcost" design="Bold" />
+									<Text id="avgcost" text="{place>avgCostOfLiving}" />
+								</HBox>
+								<HBox>
+									<Label text="Description : " class="sapUiSmallMarginEnd" labelFor="desc" design="Bold" />
+									<Text id="desc" text="{place>description}" />
+								</HBox>
+							</content>
+						</Panel>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</View>
