@@ -38,7 +38,9 @@
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
 					"bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-					"supportedLocales": [""],
+					"supportedLocales": [
+						""
+					],
 					"fallbackLocale": ""
 				}
 			},
@@ -56,20 +58,23 @@
 				"controlAggregation": "pages",
 				"async": true
 			},
-			"routes": [{
-				"pattern": "",
-				"name": "homePage",
-				"target": "homePage"
-			},{
-				"pattern": "overview",
-				"name": "overview",
-				"target": "overview"
-			},
-			{
-				"pattern": "place/{placePath}",
-				"name": "place",
-				"target": "place"
-			}],
+			"routes": [
+				{
+					"pattern": "",
+					"name": "homePage",
+					"target": "homePage"
+				},
+				{
+					"pattern": "overview",
+					"name": "overview",
+					"target": "overview"
+				},
+				{
+					"pattern": "place/{placePath}",
+					"name": "place",
+					"target": "place"
+				}
+			],
 			"targets": {
 				"overview": {
 					"viewId": "overview",
@@ -89,14 +94,20 @@
 			}
 		},
 		"resources": {
-			"css": [{
-				"uri": "css/style.css"
-			}]
+			"css": [
+				{
+					"uri": "css/style.css"
+				}
+			]
 		},
 		"contentDensities": {
 			"compact": false,
 			"cozy": false
 		},
 		"flexEnabled": true
+	},
+	"sap.platform.hcp": {
+		"uri": "webapp",
+		"_version": "1.1.0"
 	}
 }

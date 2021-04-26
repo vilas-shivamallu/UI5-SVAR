@@ -18,5 +18,18 @@
 </head>
 <body class="sapUiBody" id="content">
 	<div data-sap-ui-component data-name="sap.ui.demo.walkthrough" data-id="container" data-settings='{"id" : "walkthrough"}'></div>
+	<script>
+	    var swa = {
+	        pubToken: 'e5c301c1-f3a9-4e07-98a2-93fb2c9c541c',
+	        baseUrl: 'https://events-tracker.cfapps.sap.hana.ondemand.com/tracker/',
+	        owner: null, 
+	        //set this to a function that returns the identifier of the tracked user
+	    };
+	    (function(){
+	        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+	        g.type='text/javascript'; g.defer=true; g.async=true; g.src=swa.baseUrl+'js/track.js';
+	        s.parentNode.insertBefore(g,s);
+	     })();
+	</script>
 </body>
 </html>
